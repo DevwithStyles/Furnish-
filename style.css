@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nav-header{
+    width: 100%;
+    height: 50px;
+    color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(/img/Have-a-look-at-some-of-Milans-Best-Interior-Design-Furniture-Shops_4.jpg);
+    
+}
+.nav-header a{
+    color: orange;
+    text-decoration: none;
+}
+.nav-header h1{
+    color: white;
+    font-size: 30px;
+}
+.nav-text-wrapper{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(48, 44, 44, 0.589),rgba(0, 0, 0, 0.158)),
+    url(/img/best-online-furniture-stores-luxury-interior-design-luxe-digital.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    image-rendering: pixelated ;
+    color: white;
+   font-family: 'Courier New', Courier, monospace;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.orange{
+color: orange;
+}
+.nav-text button{
+    height: 35px;
+    width: 130px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 3px solid orange;
+    color: white;
+    background-color:transparent;
+    cursor: pointer;
+}
+
+:hover.nav-header a{
+    color: white;
+    background-color: transparent;  
+    padding: 5px 10px 5px 10px;
+    border-bottom: 2px solid orange;
+}
+:hover #learn{
+    background-color: orange;
+    color: white;
+    box-shadow: 9px 10px solid grey;
+}
+.middle{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(36, 4, 4);
+    /* background: linear-gradient(rgba(68, 32, 2, 0.45), rgba(90,57,80,0.69)); */
+}
+.biggest-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-box img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.text-box{
+    height: 90px;
+    width: 400px;
+    background-color:orange ;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    
+
+}
+.icon i{
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color:orange;
+    border:3px solid white;
+    border-radius: 50%;
+}
+
+.another-middle{
+    height: 50px;
+    width: 100%;
+    background-color:grey;
+    position: relative;
+    bottom: 10px;
+    position: relative;
+    bottom: 15px;
+    
+}
+
+.middle-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle-list a, i{
+    text-decoration: none;
+    color:white;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+
+.portfolio{
+    height: 200px;
+    width: 100%;
+    background:white;
+    display: flex;
+    
+}
+.bigger-porfolio{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.smaller-portfolio{
+    height: 50px;
+    width: 70px;
+    background-color: orange;
+}
+.smaller-portfolio i{
+    color: grey;
+    position: relative;
+    left: 25px;
+}
+.portfolio-text h3{
+    color:grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-style: italic;
+
+
+}
+.largest-box{
+    width: 100%;
+
+  
+}
+.larger-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.larger-box img{
+    height: 350px;
+    width: 410px;
+}
